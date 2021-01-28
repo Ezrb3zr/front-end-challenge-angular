@@ -1,0 +1,28 @@
+<div class="address-book-container">
+    <mat-card class="address-book-card" *ngFor="let address of addresses"> 
+        <mat-card-title>{{address.name}}</mat-card-title>
+        <div class="address-book-card-content">
+            <span class="address-book-card-line">
+                <label class="address-card-label"> Street </label>
+                {{address.streetAddress}}
+            </span>
+            <span class="address-book-card-line">
+                <label class="address-card-label"> City </label>
+                {{address.city}}
+            </span>
+            <span class="address-book-card-line">
+                <label class="address-card-label"> State </label>
+                {{address.state}}
+            </span>
+            <span class="address-book-card-line">
+                <label class="address-card-label"> Zip Code </label>
+                {{address.zipCode}}
+            </span>
+            <span class="address-book-card-line">
+                <label class="address-card-label"> Phone </label>
+                {{address.phone}}
+            </span>
+        </div>
+
+    </mat-card>
+</div>

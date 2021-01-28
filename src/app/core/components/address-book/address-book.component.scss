@@ -1,0 +1,30 @@
+.address-book-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.address-book-card {
+    max-width: 33vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.address-card-label {
+    font-weight: bold;
+    margin-right: 10%;
+}
+
+.address-book-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.address-book-card-line {
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.mat-card-title {
+    margin-left: 5px;
+}

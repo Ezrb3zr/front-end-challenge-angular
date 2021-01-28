@@ -12,12 +12,14 @@ import { HomeComponent } from './containers/home/home.component';
 
 // Components
 import { AppProgressSpinnerComponent } from './components/app-progress-spinner/app-progress-spinner.component';
+import { AddressBookComponent } from './components/address-book/address-book.component';
 
 @NgModule({
   declarations: [
     AppProgressSpinnerComponent,
     HomeLayoutComponent,
     HomeComponent,
+    AddressBookComponent,
   ],
   imports: [
     CommonModule,
